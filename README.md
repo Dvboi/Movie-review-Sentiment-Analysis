@@ -105,7 +105,23 @@ We saved the model using [Pickle](https://render.githubusercontent.com/view/ipyn
  ,the size of the saved model is approximately 350MB. You can clone the logistic_model.pkl from the repository instead of going through the hassle of training it.   
     
   The Model is then deployed using the Flask frontend Local server using **HTML,CSS and BOOTSTRAP 4**.   
-  You can run `App.ipynb` file if you are using the Jupyter notebook or `app.py` file for opening the flask website on your pc if you are using a normal IDE like VSCode/sublime etc on your pc,both have been provided.    
+  You can run `App.ipynb` file if you are using the Jupyter notebook or `app.py` file for opening the flask website on your pc if you are using a normal IDE like VSCode/sublime etc on your pc,both have been provided.
+     
+         
+             
+#### How the Website looks:   
+   
+      
+**Postive Review**  
+        
+          
+![pos](pos_rev.png)   
+             
+               
+ **Negative Review**  
+          
+              
+![neg](neg_rev.png)
       
          
             
