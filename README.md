@@ -10,7 +10,9 @@ This project requires **Python** and the following Python libraries installed:
 - [scikit-learn](http://scikit-learn.org/stable/)
 - [Seaborn](https://seaborn.pydata.org/)
 - [NLTK](https://www.nltk.org/)
-- [Flask](https://flask.palletsprojects.com/)
+- [Flask](https://flask.palletsprojects.com/)  
+- [WordCloud](https://pypi.org/project/wordcloud/)
+
 
 OR just simply clone the requirements.txt file from here and type `pip install -r requirements.txt` in the Command Line / IDE environment.  
 
@@ -20,7 +22,6 @@ You will also need to have software installed to run and execute a [Jupyter Note
 If you do not have Python installed yet, it is highly recommended that you install the [Anaconda](http://continuum.io/downloads) distribution of Python, which already has the above packages and more included. 
 
 ### Code
-- [WordCloud](https://pypi.org/project/wordcloud/)
 
 All the code is in the [Movie_review_Sentiment_analysis.ipynb](https://github.com/Dvboi/Movie-review-Sentiment-Analysis/blob/master/Movie_review_Sentiment_analysis.ipynb) notebook file.   
 
