@@ -1,0 +1,19 @@
+{% extends 'home.html' %}
+
+{% block content %}
+{% if ans == 1 %}
+<div class="alert alert-success" role="alert">
+    <h4 class="alert-heading">Well done!</h4>
+    <p>You gave a Positive Review :-)</p>
+    <hr>
+    <p class="mb-0">Let's try some other movie review now.</p>
+  </div>
+{% elif ans == 0 %}
+<div class="alert alert-danger" role="alert">
+    <h4 class="alert-heading">Woahh!</h4>
+    <p>You gave a Negative Review :-(</p>
+    <hr>
+    <p class="mb-0">Don't be sad,Let's try some other movie review now.</p>
+  </div>
+  {% endif %}
+  {% endblock %}
