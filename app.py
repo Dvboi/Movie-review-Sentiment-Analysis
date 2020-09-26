@@ -24,4 +24,4 @@ def prediction():
     return render_template('prediction.html',ans=final)
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
