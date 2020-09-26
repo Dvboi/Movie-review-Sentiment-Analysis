@@ -10,7 +10,9 @@ This project requires **Python** and the following Python libraries installed:
 - [scikit-learn](http://scikit-learn.org/stable/)
 - [Seaborn](https://seaborn.pydata.org/)
 - [NLTK](https://www.nltk.org/)
-- [Flask](https://flask.palletsprojects.com/)
+- [Flask](https://flask.palletsprojects.com/)  
+- [WordCloud](https://pypi.org/project/wordcloud/)
+
 
 OR just simply clone the requirements.txt file from here and type `pip install -r requirements.txt` in the Command Line / IDE environment.  
 
@@ -20,7 +22,6 @@ You will also need to have software installed to run and execute a [Jupyter Note
 If you do not have Python installed yet, it is highly recommended that you install the [Anaconda](http://continuum.io/downloads) distribution of Python, which already has the above packages and more included. 
 
 ### Code
-- [WordCloud](https://pypi.org/project/wordcloud/)
 
 All the code is in the [Movie_review_Sentiment_analysis.ipynb](https://github.com/Dvboi/Movie-review-Sentiment-Analysis/blob/master/Movie_review_Sentiment_analysis.ipynb) notebook file.   
 
@@ -105,7 +106,23 @@ We saved the model using [Pickle](https://render.githubusercontent.com/view/ipyn
  ,the size of the saved model is approximately 350MB. You can clone the logistic_model.pkl from the repository instead of going through the hassle of training it.   
     
   The Model is then deployed using the Flask frontend Local server using **HTML,CSS and BOOTSTRAP 4**.   
-  You can run `App.ipynb` file if you are using the Jupyter notebook or `app.py` file for opening the flask website on your pc if you are using a normal IDE like VSCode/sublime etc on your pc,both have been provided.    
+  You can run `App.ipynb` file if you are using the Jupyter notebook or `app.py` file for opening the flask website on your pc if you are using a normal IDE like VSCode/sublime etc on your pc,both have been provided.
+     
+         
+             
+#### How the Website looks:   
+   
+      
+**Postive Review**  
+        
+          
+![pos](pos_rev.png)   
+             
+               
+ **Negative Review**  
+          
+              
+![neg](neg_rev.png)
       
          
             
