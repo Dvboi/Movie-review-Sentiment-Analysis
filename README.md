@@ -106,7 +106,7 @@ We saved the model using [Pickle](https://render.githubusercontent.com/view/ipyn
  ,the size of the saved model is approximately 350MB. You can clone the logistic_model.pkl from the repository instead of going through the hassle of training it.   
     
   The Model is then deployed using the Flask frontend Local server using **HTML,CSS and BOOTSTRAP 4**.   
-  You can run `App.ipynb` file if you are using the Jupyter notebook or `app.py` file for opening the flask website on your pc if you are using a normal IDE like VSCode/sublime etc on your pc,both have been provided.
+  You can run `App.ipynb` file if you are using the Jupyter notebook or `app.py` file for opening the flask website on your pc if you are using a normal IDE like VSCode/sublime etc ,both have been provided.
      
          
              
@@ -126,13 +126,18 @@ We saved the model using [Pickle](https://render.githubusercontent.com/view/ipyn
       
          
             
- So,this was my first end-to-end model,hope you liked it!.  
+      
+ **Note-** The project wasn't deployed on Heroku because it's size (because of the model size) exceeded their platform's slug size of 300mb. Other cloud Platforms needed Credit-Card. Thus, it's best to run the model locally.   
+     
+          
+            
+So,this was my first end-to-end model,hope you liked it!.  
  Want to connect? Here's my:   
  
  [![badge](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/devansh-verma-609218148/).     
  
        
-         
+        
 ### Happy Learning!!!
 
 
