@@ -127,7 +127,7 @@ We saved the model using [Pickle](https://render.githubusercontent.com/view/ipyn
          
             
       
- **Note-** The project wasn't deployed on Heroku because it's size (because of the model size) exceeded their platform's slug size of 300mb. Other cloud Platforms needed Credit-Card. Thus, it's best to run the model locally.   
+ **Note-** The project wasn't productionized on Heroku because it's size (because of the model size) exceeded their platform's slug size of 300mb. Other cloud Platforms needed Credit-Card. Thus, it's best to run the model locally.   
      
           
             
